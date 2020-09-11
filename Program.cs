@@ -8,14 +8,17 @@ namespace BoardGame
     {
         static void Main(string[] args)
         {
-            Game.initializevariable();
+            Player Player1 = new Player("Hans", "X");
+            Player Player2 = new Player("Torben", "B");
+
+            Game.InitializeVariable();
             Game.Intro();
             while (Game.HasWon() == false)
             {
-                Game.AskData("X");
+                Game.AskData(Player1);
                 if (Game.HasWon() == true)
                     break;
-                Game.AskData("O");
+                Game.AskData(Player2);
             }
         }
     }

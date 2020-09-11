@@ -6,14 +6,13 @@ namespace BoardGame
 {
     public class Game
     {
-
-       static int ODice = 0;
-       static int XDice = 0;
+        //Laver arrays med board størrelse
        static String[] board = new String[2];
        static String[] board2 = new String[3];
        static String[] board3 = new String[4];
 
-        public static void initializevariable()
+        //Putter tal ind i boardet.
+        public static void InitializeVariable()
         {
             for (int i = 0; i < 2; i++)
             {
@@ -29,20 +28,23 @@ namespace BoardGame
             }
         }
 
-        public static void AskData(string player)
+        //Skriver dataen ind på boardet.
+        public static void AskData(int player)
         {
+            //int hit = 0;
             Random r = new Random();
-            Console.WriteLine("Player: " + player);
-            XDice = r.Next(1, 7);
-            Console.WriteLine($"Du slog {XDice}");
+            Console.WriteLine("Player: " + );
+            //hit = r.Next(1, 7);
+            Console.WriteLine("choose selection");
             DrawBoard();
-            //int selection = Convert.ToInt32(Console.ReadLine());
+            int selection = Convert.ToInt32(Console.ReadLine());
             //board[hit] = player;
-            //board[selection] = player;
+            board[selection] = player;
         }
 
         public static void DrawBoard()
         {
+            //Tegner boardet linje for linje
             for (int i = 0; i < 2; i += 2) //Tegn spillepladen
                 Console.WriteLine(board[i + 0] + "|" + board[i + 0] + "|" + board[i + 1]);
 
@@ -54,11 +56,13 @@ namespace BoardGame
 
         }
 
+        //Udskriver vinderen
        public static Boolean HasWon()
         {
             return false;
         }
 
+        //Introduktion til spillet
         public static void Intro()
         {
             Console.Title = ("Brætspil");
