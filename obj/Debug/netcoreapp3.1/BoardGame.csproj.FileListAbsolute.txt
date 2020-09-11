@@ -1,0 +1,13 @@
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\bin\Debug\netcoreapp3.1\BoardGame.exe
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\bin\Debug\netcoreapp3.1\BoardGame.deps.json
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\bin\Debug\netcoreapp3.1\BoardGame.runtimeconfig.json
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\bin\Debug\netcoreapp3.1\BoardGame.runtimeconfig.dev.json
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\bin\Debug\netcoreapp3.1\BoardGame.dll
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\bin\Debug\netcoreapp3.1\BoardGame.pdb
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.csprojAssemblyReference.cache
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.AssemblyInfoInputs.cache
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.AssemblyInfo.cs
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.csproj.CoreCompileInputs.cache
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.dll
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.pdb
+C:\Users\Chrelle\source\repos\ObjectOrientedProgramming\BoardGame\obj\Debug\netcoreapp3.1\BoardGame.genruntimeconfig.cache
