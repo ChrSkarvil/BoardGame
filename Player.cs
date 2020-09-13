@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,21 +6,34 @@ namespace BoardGame
 {
     public class Player
     {
-        private string name;
-        private string letter;
 
-        public Player(string name, string letter)
+
+        public static void Players()
         {
-            this.name = name;
-            this.letter = letter;
+            string playerName1 = "";
+            Console.WriteLine("Hvad er navnet på spiller 1?");
+            playerName1 = Console.ReadLine();
+            Console.Clear();
+
+            string playerName2 = "";
+            Console.WriteLine("Hvad er navnet på spiller 2?");
+            playerName2 = Console.ReadLine();
+            Console.Clear();
         }
-        public string GetName()
-        {
-            return this.name;
-        }
-        public string GetLetter()
-        {
-            return this.letter;
-        }
+
+
+
+
+        //    this.name = name;
+        //    this.letter = letter;
+        //}
+        //public string GetName()
+        //{
+        //    return this.name;
+        //}
+        //public string GetLetter()
+        //{
+        //    return this.letter;
+        //}
     }
 }
