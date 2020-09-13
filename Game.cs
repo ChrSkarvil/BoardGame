@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -7,6 +7,10 @@ namespace BoardGame
     public class Game
     {
         //Laver arrays med board størrelse
+       static Boolean Player1Six = false;
+       static Boolean Player2Six = false;
+       static int[] Player1Dice = new int[2];
+       static int[] Player2Dice = new int[2];
        static String[] board = new String[2];
        static String[] board2 = new String[3];
        static String[] board3 = new String[4];
@@ -28,18 +32,24 @@ namespace BoardGame
             }
         }
 
-        //Skriver dataen ind på boardet.
-        public static void AskData(int player)
+        public static void Dice()
         {
-            //int hit = 0;
             Random r = new Random();
-            Console.WriteLine("Player: " + );
-            //hit = r.Next(1, 7);
-            Console.WriteLine("choose selection");
+            for (int i = 0; i < 2; i++)
+            {
+                Player1Dice[i] = r.Next(1, 7);
+
+
+            }
+
+
+        }
+
+        //Skriver dataen ind på boardet.
+        public static void Placement()
+        {
+            Console.WriteLine("Du har slået");
             DrawBoard();
-            int selection = Convert.ToInt32(Console.ReadLine());
-            //board[hit] = player;
-            board[selection] = player;
         }
 
         public static void DrawBoard()
