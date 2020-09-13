@@ -20,20 +20,5 @@ namespace BoardGame
             playerName2 = Console.ReadLine();
             Console.Clear();
         }
-
-
-
-
-        //    this.name = name;
-        //    this.letter = letter;
-        //}
-        //public string GetName()
-        //{
-        //    return this.name;
-        //}
-        //public string GetLetter()
-        //{
-        //    return this.letter;
-        //}
     }
 }
